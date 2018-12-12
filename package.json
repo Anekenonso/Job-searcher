@@ -1,0 +1,29 @@
+{
+  "name": "job-searcher",
+  "version": "1.0.0",
+  "description": "A job scrapper app",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anekenonso/Job-searcher.git"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Job",
+    "Remote",
+    "jobs",
+    "Freelance"
+  ],
+  "author": "Okenwa kenneth",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
